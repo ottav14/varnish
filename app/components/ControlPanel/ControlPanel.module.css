@@ -1,0 +1,19 @@
+.main {
+	display: flex;
+	flex: 1;
+	background-color: #222;
+}
+
+.controlContainer {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.noiseType {
+
+}
+
+.controlSet {
+
+}

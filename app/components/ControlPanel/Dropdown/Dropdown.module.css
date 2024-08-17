@@ -1,0 +1,44 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 1rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+.dropdownItem {
+	border: none;
+	background-color: white;
+	color: black;
+	text-align: left;
+}
+
+.button:hover {
+	transition: 0.2s;
+	background-color: black;
+	color: white;
+}
+
+.dropdownLabel {
+	text-align: center;
+	padding-bottom: 1rem;
+}
+
+.dropdownContent {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	border-top: none;
+	top: 4.34rem;
+	width: 17.85rem;
+	background-color: white;
+	color: black;
+}
+
+.dropdownItem:hover {
+	transition: 0.2s;
+	background-color: black;
+	color: white;
+}	
+
